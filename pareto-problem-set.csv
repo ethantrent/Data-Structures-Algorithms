@@ -1,0 +1,50 @@
+Problem Number,Problem Name,Category,Difficulty,Intuition,LeetCode Link
+217,Contains Duplicate,Arrays & Hashing,Easy,Use a set to check for repeated elements quickly,https://leetcode.com/problems/contains-duplicate/
+242,Valid Anagram,Arrays & Hashing,Easy,Sort or count letters to compare two strings,https://leetcode.com/problems/valid-anagram/
+1,Two Sum,Arrays & Hashing,Easy,Use a hash map to find the complement of each number,https://leetcode.com/problems/two-sum/
+49,Group Anagrams,Arrays & Hashing,Medium,Group words by their sorted character tuple,https://leetcode.com/problems/group-anagrams/
+347,Top K Frequent Elements,Arrays & Hashing,Medium,Count frequencies and use a heap or bucket sort,https://leetcode.com/problems/top-k-frequent-elements/
+36,Valid Sudoku,Arrays & Hashing,Medium,Track seen numbers in rows, columns, and boxes,https://leetcode.com/problems/valid-sudoku/
+238,Product of Array Except Self,Arrays & Hashing,Medium,Use prefix and suffix products for O(n) time and no division,https://leetcode.com/problems/product-of-array-except-self/
+128,Longest Consecutive Sequence,Arrays & Hashing,Medium,Use a set to check sequence starts and count lengths,https://leetcode.com/problems/longest-consecutive-sequence/
+125,Valid Palindrome,Arrays & Hashing,Easy,Use two pointers to compare characters while ignoring non-alphanumerics,https://leetcode.com/problems/valid-palindrome/
+167,Two Sum II - Input Array Is Sorted,Two Pointers,Medium,Use two pointers from each end to find the sum,https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+15,3Sum,Two Pointers,Medium,Sort and use two pointers for each fixed element,https://leetcode.com/problems/3sum/
+11,Container With Most Water,Two Pointers,Medium,Use two pointers and move the shorter line inward,https://leetcode.com/problems/container-with-most-water/
+121,Best Time to Buy and Sell Stock,Two Pointers,Easy,Track the minimum price and max profit as you iterate,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+3,Longest Substring Without Repeating Characters,Two Pointers,Medium,Use a sliding window and a set to track unique characters,https://leetcode.com/problems/longest-substring-without-repeating-characters/
+424,Longest Repeating Character Replacement,Two Pointers,Medium,Use a sliding window and count the most frequent character,https://leetcode.com/problems/longest-repeating-character-replacement/
+20,Valid Parentheses,Stack,Easy,Use a stack to match opening and closing brackets,https://leetcode.com/problems/valid-parentheses/
+155,Min Stack,Stack,Medium,Maintain a stack of minimums alongside the main stack,https://leetcode.com/problems/min-stack/
+739,Daily Temperatures,Stack,Medium,Use a stack to track indices of decreasing temperatures,https://leetcode.com/problems/daily-temperatures/
+704,Binary Search,Binary Search,Easy,Classic binary search on sorted array,https://leetcode.com/problems/binary-search/
+153,Find Minimum in Rotated Sorted Array,Binary Search,Medium,Use binary search to find the inflection point,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+33,Search in Rotated Sorted Array,Binary Search,Medium,Use binary search with logic for rotated halves,https://leetcode.com/problems/search-in-rotated-sorted-array/
+206,Reverse Linked List,Linked List,Easy,Iteratively reverse pointers of the list,https://leetcode.com/problems/reverse-linked-list/
+21,Merge Two Sorted Lists,Linked List,Easy,Iteratively or recursively merge nodes in order,https://leetcode.com/problems/merge-two-sorted-lists/
+143,Reorder List,Linked List,Medium,Find middle, reverse second half, merge alternately,https://leetcode.com/problems/reorder-list/
+19,Remove Nth Node From End of List,Linked List,Medium,Use two pointers with a gap of n nodes,https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+141,Linked List Cycle,Linked List,Easy,Use slow and fast pointers to detect a cycle,https://leetcode.com/problems/linked-list-cycle/
+146,LRU Cache,Linked List,Medium,Use a hashmap and doubly-linked list for O(1) operations,https://leetcode.com/problems/lru-cache/
+703,Kth Largest Element in a Stream,Heap / Priority Queue,Easy,Maintain a min-heap of k largest elements,https://leetcode.com/problems/kth-largest-element-in-a-stream/
+1046,Last Stone Weight,Heap / Priority Queue,Easy,Use a max-heap to repeatedly smash the two largest stones,https://leetcode.com/problems/last-stone-weight/
+215,Kth Largest Element in an Array,Heap / Priority Queue,Medium,Use a min-heap of size k to track largest elements,https://leetcode.com/problems/kth-largest-element-in-an-array/
+572,Subtree of Another Tree,Trees,Easy,Recursively check if one tree is a subtree of another,https://leetcode.com/problems/subtree-of-another-tree/
+235,Lowest Common Ancestor of a Binary Search Tree,Trees,Easy,Use BST properties to find the split point,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+102,Binary Tree Level Order Traversal,Trees,Medium,Breadth-first search using a queue,https://leetcode.com/problems/binary-tree-level-order-traversal/
+199,Binary Tree Right Side View,Trees,Medium,BFS or DFS, keep the last node at each depth,https://leetcode.com/problems/binary-tree-right-side-view/
+1448,Count Good Nodes in Binary Tree,Trees,Medium,DFS while tracking the max value seen so far,https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+98,Validate Binary Search Tree,Trees,Medium,Recursively check the valid range for each node,https://leetcode.com/problems/validate-binary-search-tree/
+230,Kth Smallest Element in a BST,Trees,Medium,Inorder traversal to find kth element,https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+226,Invert Binary Tree,Trees,Easy,Recursively swap left and right children,https://leetcode.com/problems/invert-binary-tree/
+104,Maximum Depth of Binary Tree,Trees,Easy,Recursively find the max depth of left and right subtrees,https://leetcode.com/problems/maximum-depth-of-binary-tree/
+543,Diameter of Binary Tree,Trees,Easy,DFS to compute the longest path through each node,https://leetcode.com/problems/diameter-of-binary-tree/
+110,Balanced Binary Tree,Trees,Easy,Check heights and balance at each node recursively,https://leetcode.com/problems/balanced-binary-tree/
+100,Same Tree,Trees,Easy,Recursively check if both trees are identical,https://leetcode.com/problems/same-tree/
+200,Number of Islands,Graphs,Medium,DFS or BFS to mark all connected land,https://leetcode.com/problems/number-of-islands/
+695,Max Area of Island,Graphs,Medium,DFS to count area of each island,https://leetcode.com/problems/max-area-of-island/
+133,Clone Graph,Graphs,Medium,DFS or BFS with a hashmap to copy nodes,https://leetcode.com/problems/clone-graph/
+417,Pacific Atlantic Water Flow,Graphs,Medium,DFS/BFS from both oceans, find common reachable cells,https://leetcode.com/problems/pacific-atlantic-water-flow/
+130,Surrounded Regions,Graphs,Medium,DFS/BFS to mark border-connected 'O's,https://leetcode.com/problems/surrounded-regions/
+207,Course Schedule,Graphs,Medium,Detect cycles in a directed graph with BFS/DFS,https://leetcode.com/problems/course-schedule/
+210,Course Schedule II,Graphs,Medium,Topological sort to find a valid course order,https://leetcode.com/problems/course-schedule-ii/
